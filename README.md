@@ -1,46 +1,27 @@
-# Asistente de Ventas con IA (n8n + Automatización)
+# AI Sales Automation System
 
-Descripción
+Sistema automatizado de ventas con IA capaz de gestionar leads, responder consultas y automatizar seguimiento en tiempo real.
 
-Sistema automatizado de ventas con inteligencia artificial diseñado para gestionar consultas de clientes, recomendar productos y automatizar respuestas en tiempo real.
+Diseñado como solución productiva para e-commerce y negocios digitales.
 
-Este proyecto simula un entorno productivo integrando múltiples servicios, APIs y lógica de negocio.
+## Resultado
 
-Problema
+- Automatiza atención al cliente 24/7
+- Reduce carga operativa manual
+- Mejora tiempos de respuesta
+- Aumenta potencial de conversión
 
-Los negocios digitales reciben múltiples consultas diarias que requieren atención constante, lo que genera demoras, pérdida de oportunidades y alta carga operativa.
+## Arquitectura del sistema
 
-Solución
+Cliente → Webhook → IA Agent → Clasificación →  
+→ Base de datos → Generación de respuesta → Envío automático
 
-Se desarrolló un sistema automatizado que utiliza IA para responder consultas, clasificar intenciones y guiar al cliente durante el proceso de compra.
+## Caso de uso real
 
+Sistema aplicable a negocios de e-commerce que reciben consultas constantes sobre productos, stock y precios.
 
-Funcionamiento
+Permite automatizar la atención inicial y el proceso de venta sin intervención humana.
 
-1. El usuario envía un mensaje (Webhook / WhatsApp / Telegram)
-2. El sistema recibe y procesa la solicitud
-3. Un agente de IA interpreta la intención del usuario
-4. Se consulta una base de datos (productos / FAQs)
-5. Se genera una respuesta contextual
-6. Se envía automáticamente al cliente
-
-Valor de negocio
-
-- Atención automatizada 24/7
-- Reducción de carga operativa
-- Mejora en tiempos de respuesta
-- Aumento potencial de conversiones
-
-
-Tecnologías utilizadas
-
-- n8n (automatización de flujos)
-- OpenAI / LLMs
-- APIs REST y Webhooks
-- Google Sheets (base de datos)
-
-
-
-Enfoque
+# Enfoque
 
 Este proyecto fue diseñado simulando un entorno productivo, aplicando principios de escalabilidad, integración de sistemas y automatización inteligente.
